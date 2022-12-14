@@ -31,13 +31,12 @@ export default function TextForm() {
              {handlelowerClick}>Lowercase</button>
             <button className='btn btn-primary btn-large my-3 mx-2' onClick={handleClearClick}>Clear 
              Text</button>
-            <button className='btn btn-primary btn-large my-3 mx-2'>Copy Text</button>
         </div>
         <div className="container my-3">
             <h2 className='text-left mt-5'>Text Summery</h2>
-            <p className='align text-left mt-2'>{text.split(' ').length} words</p>
-            <p className='align text-left mt-1'>{text.length} characters</p>
-            <h2 className='align text-left mt-3'>Preview</h2>
+            <p className='text-left mt-2'>{text.split(' 'git).length} words</p>
+            <p className='text-left mt-1'>{text.length} characters</p>
+            <h2 className='text-left mt-3'>Preview</h2>
             <p className="text-primary text-left">{text}</p>
         </div>
     </div>
