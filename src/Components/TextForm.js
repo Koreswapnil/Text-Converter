@@ -42,11 +42,8 @@ export default function TextForm() {
              </button>
             <button className='btn btn-primary btn-large my-3 mx-2' onClick={handleClearClick}>Clear 
              Text</button>
-<<<<<<< HEAD
              <button className='btn btn-primary btn-large my-3 mx-2' onClick={handleCopyClick}>Copy
              Text</button>
-=======
->>>>>>> 99a94aa9828a24095eb64e33b884f04cc19bd9f9
         </div>
         <div className="container my-3">
             <h3 className='text-left mt-2'>Text Summery</h3>
